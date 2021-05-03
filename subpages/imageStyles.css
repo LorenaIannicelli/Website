@@ -1,0 +1,17 @@
+.image {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.caption {
+    margin: 0px 20px 20px 50px;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+}
