@@ -1,0 +1,71 @@
+/*Default for the whole webpage*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Side-bar (ul)*/
+.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+
+}
+
+.mainPage {
+    background-color: #E5E5E5
+}
+
+/*Object within sidebar (li)*/
+.barLink {
+    float: left;
+    color: #FFFFFF;
+}
+
+/*Link text in sidebar */
+.barLink a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*make pink when hovering */
+.barLink a:hover {
+    background-color: #FFC0CB;
+}
+
+.barline a:active {
+    background-color: #FF69B4;
+}
+
+/*All headers*/
+h1, h2 {
+    color:#FF69B4;
+    margin: 10px;
+}
+
+
+
+ul {
+    list-style-type: circle;
+    margin: 0 0 10px 40px;
+}
+
+ol {
+    margin: 0 0 10px 40px;
+}
+
+li {
+    font-size:18px;
+}
+
+p {
+    font-size: 19px;
+    margin-left: 20px
+}
