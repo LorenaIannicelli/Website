@@ -36,4 +36,8 @@ h1 {
     body {
       background-color: #F09A9D !important; /* Red */
     }
+    .flexContainer {
+        justify-content: column;
+    }
+    
   }
