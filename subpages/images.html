@@ -3,7 +3,7 @@
   <head>
     <title>Images</title>
     <link rel='stylesheet' href='../webStyles.css'/>
-    <link rel='stylesheet' href='imageStyles.css'/>
+    <link rel='stylesheet' href='images.css'/>
   </head>
   <body>
     <ul class='sidebar'>
@@ -13,14 +13,20 @@
       <li class='barLink'><a href='school.html'>School</a></li>
       <li class='barLink'><a href="https://github.com/LorenaIannicelli">GitHub</a></li>
       <li class='barLink'><a href="../Lab1/index.html">Lab 1</a></li>
-  </ul>
-  <div class='mainPage'>
-    <h1>Images</h1>
-    <img class='image' src='../images/DSCF4007.jpg' />
-    <p class='caption'>This is me in the Rocky Mountains!</p>
+    </ul>
+    <div class='mainPage'>
+      <h1>Images</h1>
+      <div class='flexContainer'>
+        <div class="imageAndCaption">
+          <img class='image' src='../images/DSCF4007.jpg' />
+          <p class='caption'>This is me in the Rocky Mountains!</p>
+        </div>  <!--image and caption div -->
+        <div class="imageAndCaption">
+          <img class='image' src='../images/skiing.jpg'/>
+          <p class='caption'>I learned how to ski this year!</p>
+        </div>
+      </div>    <!-- flex container div -->
+    </div>    <!--mainpage div  -->
     <hr/>
-    <img class='image' src='../images/skiing.jpg'/>
-    <p class='caption'>I learned how to ski this year!</p>
-  </div>
   </body>
 </html>
