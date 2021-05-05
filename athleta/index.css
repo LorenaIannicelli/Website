@@ -7,7 +7,7 @@
 
 .topLogoBar {
     background-color:whitesmoke;
-    padding: 20px 0;
+    padding-top: 20px ;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -15,17 +15,19 @@
 
 .logoImage {
     width: 200px;
+    padding-right: 550px;
 }
 
 .searchBox {
-    display:flex;
-    width:150px;
+    width:200px;
+    display: flex;
+    justify-content: right;
 }
 
 .searchImage {
     width:12px;
     height: 20px;
-
+    padding-top: 20px;
 }
 
 .menuBar {
@@ -33,3 +35,72 @@
     justify-content:space-evenly;
 }
 
+.sideImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left:200px;
+    padding-top: 50px;
+    height: 700px;
+    width: 200px;
+    
+}
+
+.sidePic {
+    width: 70px;
+}
+
+.BuyingInfo{
+    padding: 40px;
+}
+
+.mainPage {
+    display: flex;
+}
+
+.featuredPic {
+    width:700px;
+    padding-top: 50px;
+    padding-left:50px;
+}
+
+.mainPic {
+    height: 700px;
+}
+
+.smallType{
+    font-size: 10px;
+}
+
+.sizeType {
+    display:flex; 
+    flex-direction: row;
+    justify-content: left;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.size {
+    width:50px;
+}
+
+.sizeName {
+    width:100px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.addButton {
+    background-color: black !important;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
