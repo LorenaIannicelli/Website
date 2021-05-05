@@ -1,0 +1,35 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategray;
+}
+
+
+
+.topLogoBar {
+    background-color:whitesmoke;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logoImage {
+    width: 200px;
+}
+
+.searchBox {
+    display:flex;
+    width:150px;
+}
+
+.searchImage {
+    width:12px;
+    height: 20px;
+
+}
+
+.menuBar {
+    display:flex;
+    justify-content:space-evenly;
+}
+
